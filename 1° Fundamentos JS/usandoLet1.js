@@ -4,3 +4,4 @@ var numero = 1
     console.log('dentro =',numero)
 }
 console.log('fora =', numero)
+//let possui escopo global, function, bloco
