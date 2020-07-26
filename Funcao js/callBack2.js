@@ -17,7 +17,10 @@ const notasBaixas2 = notas.filter(function (nota) {
 console.log(notasBaixas2)
 
 // callback + arrowfunction 
-const notasBaixas3 = notas.filter(nota => nota < 7)
+const notasBaixas3 = notas.filter(nota2 => nota2 < 7)
 console.log(notasBaixas3)
+
+
+
 
 
