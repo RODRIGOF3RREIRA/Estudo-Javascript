@@ -9,7 +9,7 @@ delete produto.preco
 delete produto ['marca do produto']
 console.log(produto)
 
-cont carro = { 
+const carro = { 
     modelo: 'A4',
     valor: 89444,
     proprietario: {
