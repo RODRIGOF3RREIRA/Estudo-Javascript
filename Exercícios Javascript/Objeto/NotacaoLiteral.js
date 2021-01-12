@@ -16,3 +16,12 @@ console.log(obj3)
 const obj4 = {[nomeAttr]: valorAtttr}
 console.log(obj4)
 
+//ECS 2015
+const obj5 = {
+    funcao1(){
+//...
+    }
+}
+
+
+
