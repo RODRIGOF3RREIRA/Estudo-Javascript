@@ -29,4 +29,4 @@ numéricos na ordem que foram inseridos. Por exemplo: calculadora (2, ‘+’, 3
  console.log(calculadora(8,'+', 4))
  console.log(calculadora(8,'-', 4))
  console.log(calculadora(8,'*', 4))
- console.log(calculadora(8,'/', 4))
+ console.log(calculadora(8,'/ ', 4))
