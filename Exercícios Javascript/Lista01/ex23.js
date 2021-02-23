@@ -10,5 +10,10 @@ aluno, suas três notas, a média calculada e uma mensagem "APROVADO" se a médi
      notas.push(n1)
      notas.push(n2)
      notas.push(n3)
+     notas.sort((a,b) => a < b ? 1 : -1)/*função para ordenar o array do maior para o menor*/
      
+     let mediaFinal = (notas[0] * 4 + notas[1] * 3 + notas[2] * 3)/10
+     console.log(`Código do Aluno: ${codigo}. Notas: ${n1}, ${n2}, ${n3}. Media final:${mediaFinal} ${mediaFinal < 5 ? 'Reprovado.' : 'Aprovado.'}`)
  }
+ 
+ aluno_nota(123, 3.8, 6, 3.5)
